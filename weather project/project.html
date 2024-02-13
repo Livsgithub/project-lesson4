@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>My weather application</title>
+    <link rel="stylesheet" href="project.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header>
+        <form>
+          <input
+            type="search"
+            placeholder="Enter a city.."
+            class="city"
+            required
+          />
+          <input type="submit" value="Search" class="search" />
+        </form>
+      </header>
+      <hr />
+      <main>
+        <div class="current-weather">
+          <div>
+            <h1>Paris</h1>
+            <p>
+              Saturday 15:32, moderate rain <br />
+              Humidity: <strong>87%</strong>, Wind: <strong>7.2km/h</strong>
+            </p>
+          </div>
+          <div class="current-degrees">
+            <span class="emoji">☀️</span> <span class="temp-value">14 </span
+            ><span class="unit">°C</span>
+          </div>
+        </div>
+      </main>
+      <hr />
+      <footer>
+        <p>
+          This project was coded by
+          <a href="#" target="_blank">Livia Imperati</a> and is
+          <a href="#" target="_blank"> on GitHub</a> and
+          <a href="#" target="_blank">hosted on Netlify</a>
+        </p>
+      </footer>
+    </div>
+    <script type="text/javascript" src="project.js"></script>
+  </body>
+</html>

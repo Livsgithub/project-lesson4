@@ -1,0 +1,72 @@
+body {
+  background: #e6dff8;
+}
+.app {
+  display: block;
+  margin: 40px auto;
+  justify-content: center;
+  max-width: 600px;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+}
+main,
+footer {
+  margin: 15px 15px 10px;
+  font-family: Roboto, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: Roboto, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.current-weather {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.current-degrees {
+  font-size: 65px;
+  font-weight: 650;
+}
+.emoji {
+  font-size: 34px;
+  position: relative;
+  top: -8px;
+  right: -18px;
+}
+.unit {
+  font-size: 32px;
+  position: relative;
+  top: -22px;
+  left: -15px;
+}
+main p,
+footer {
+  color: #a9a6b3;
+}
+strong {
+  color: #f65282;
+}
+form {
+  display: flex;
+  margin: 20px 0px;
+  gap: 10px;
+  widows: 600px;
+}
+form .city {
+  background: #f9f7fe;
+  padding: 15px;
+  border-radius: 5px;
+  width: 70%;
+}
+form .search {
+  width: 20%;
+  background: #885df1;
+  color: cornsilk;
+  border: transparent;
+  border-radius: 5px;
+  padding: 15px;
+}
